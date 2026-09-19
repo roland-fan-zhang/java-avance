@@ -10,11 +10,4 @@ public record Beer(int quantity, BeerKind kind) implements Article {
     }
     Objects.requireNonNull(kind);
   }
-
-  @Override
-  public Article parseArticle(String line) {
-    Objects.requireNonNull(line);
-
-    return null;
-  }
 }

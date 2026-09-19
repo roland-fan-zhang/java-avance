@@ -10,14 +10,4 @@ public record Lego(int quantity, String name) implements Article{
     }
     Objects.requireNonNull(name);
   }
-
-  @Override
-  public Article parseArticle(String line) {
-    Objects.requireNonNull(line);
-    var fields = line.split(",", -1);
-    if (fields.length != 3) {
-      throw new IllegalArgumentException("");
-    }
-    return null;
-  }
 }

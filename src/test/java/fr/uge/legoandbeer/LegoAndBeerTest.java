@@ -129,7 +129,7 @@ public final class LegoAndBeerTest {
     }
   }
 
-  /*
+  
   @Nested
   public class Q2 {
 
@@ -213,7 +213,7 @@ public final class LegoAndBeerTest {
     }
   }
 
-
+  /*
   @Nested
   public class Q3 {
 
