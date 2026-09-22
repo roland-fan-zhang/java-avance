@@ -213,7 +213,6 @@ public final class LegoAndBeerTest {
     }
   }
 
-  /*
   @Nested
   public class Q3 {
 
@@ -325,6 +324,7 @@ public final class LegoAndBeerTest {
 
 
   // Used by Q4, Q5, etc.
+  /*
   private static String captureReceiptOutput(List<Article> articles) {
     var originalOut = System.out;
     var buffer = new ByteArrayOutputStream();
@@ -336,7 +336,7 @@ public final class LegoAndBeerTest {
     }
     return buffer.toString();
   }
-
+  */
 
   private record ProcessResult(String stdout, String stderr, int exitCode) {}
 
@@ -362,7 +362,7 @@ public final class LegoAndBeerTest {
       return new ProcessResult(stdout, stderr, process.exitValue());
     }
   }
-
+  /*
   @Nested
   public class Q4 {
 

@@ -2,7 +2,7 @@ package fr.uge.legoandbeer;
 
 import java.util.Objects;
 
-public record Lego(int quantity, String name) implements Article{
+public record Lego(int quantity, String name) implements Article {
 
   public Lego {
     if (quantity <= 0) {
